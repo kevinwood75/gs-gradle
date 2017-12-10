@@ -24,14 +24,14 @@ public class HelloWorldTests {
     public void shouldPrintTimeToConsole() {
         HelloWorld.main(new String[] { });
 
-        assertThat(output(), containsString("The current local time is"));
+        assertThat(output(), containsString("You current local time is"));
     }
 
     @Test
     public void shouldPrintHelloWorldToConsole() {
         HelloWorld.main(new String[] { });
 
-        assertThat(output(), containsString("Hello world!"));
+        assertThat(output(), containsString("Hello Woodez!"));
     }
 
     private String output() {
